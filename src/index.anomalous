@@ -16,12 +16,42 @@
 </head>
 
 <body>
-    <div class="mtpd-manual">
+    <div class="container mtpd-manual">
         <!-- START OF FRONT END CONTENT -->
         <h1>Metro Transit Police Department Policy Manual</h1>
         <img class="hero" src="Data/sites/1/media/mtpd-on-lrt.jpg" alt="Metro Transit Police interact with riders on the LRT" />
         <div class="right-col">
             <partial src="nav.html" />
+        </div>
+        <div class="left-col">
+            <partial src="chiefs-preface.html" />
+            <partial src="law-enforcement-code-of-ethics.html" />
+            <partial src="mission-statement-and-core-values.html" />
+
+            <partial src="100.html" />
+            <partial src="102.html" />
+            <partial src="104.html" />
+            <partial src="106.html" />
+
+            <partial src="200.html" />
+            <partial src="204.html" />
+            <partial src="206.html" />
+            <partial src="208.html" />
+            <partial src="212.html" />
+            <partial src="214.html" />
+            <partial src="220.html" />
+
+            <partial src="300.html" />
+            <partial src="302.html" />
+            <partial src="306.html" />
+            <partial src="308.html" />
+            <partial src="309.html" />
+            <partial src="310.html" />
+            <partial src="312.html" />
+            <partial src="314.html" />
+            <partial src="316.html" />
+            <partial src="318.html" />
+            <partial src="320.html" />
         </div>
         <!-- END OF FRONT END CONTENT -->
     </div>
