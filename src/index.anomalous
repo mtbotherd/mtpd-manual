@@ -139,6 +139,12 @@
             <partials src="partials/613.html" />
             <partials src="partials/614.html" />
             <partials src="partials/615.html" />
+
+            <partials src="partials/700.html" />
+            <partials src="partials/702.html" />
+            <partials src="partials/704.html" />
+            <partials src="partials/706.html" />
+            <partials src="partials/710.html" />
         </div>
         <!-- END OF FRONT END CONTENT -->
     </div>
