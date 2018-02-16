@@ -47,13 +47,16 @@
 			}
 
 			.plus-icon {
+				// content: "\E148";
 				background-image: url("data:image/gif;base64,R0lGODlhCwALALMAAKfB4vn7/RJWssjY7Tlyv3if08bW7JOy3NLf8DJtvAxSsP///wAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAQ6cC1TiCDFyAXSQQFyJMCUDJs0JNSxKdtRIe+GWMGi7PsSXDQJTHIruISxzCm1WGk6n9CoJKFYMJpFBAA7");
 				background-repeat: no-repeat;
 				background-position: 0 4px;
 			}
 
 			.minus-icon {
-				background-image: url("/Images/Icons/MinusSmall.gif");
+				// font-family: "Material Icons";
+				// content: "\E15D";
+				background-image: url("https://www.metrotransit.org/Images/Icons/MinusSmall.gif");
 				background-repeat: no-repeat;
 				background-position: 0 4px;
 			}

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ridematch Landing | Metro Transit</title>
+    <title>MTPD Policy Manual | Metro Transit</title>
     <link rel='shortcut icon' href='https://www.metrotransit.org/Data/Sites/1/skins/MetroTransitII/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
     <!-- <link rel="stylehseet" type="text/css" href="fonts/font-awesome.min.css" /> -->
@@ -21,37 +21,114 @@
         <h1>Metro Transit Police Department Policy Manual</h1>
         <img class="hero" src="Data/sites/1/media/mtpd-on-lrt.jpg" alt="Metro Transit Police interact with riders on the LRT" />
         <div class="right-col">
-            <partial src="nav.html" />
+            <partial src="partials/nav.html" />
         </div>
         <div class="left-col">
-            <partial src="chiefs-preface.html" />
-            <partial src="law-enforcement-code-of-ethics.html" />
-            <partial src="mission-statement-and-core-values.html" />
+            <partial src="partials/chiefs-preface.html" />
+            <partial src="partials/law-enforcement-code-of-ethics.html" />
+            <partial src="partials/mission-statement-and-core-values.html" />
 
-            <partial src="100.html" />
-            <partial src="102.html" />
-            <partial src="104.html" />
-            <partial src="106.html" />
+            <partial src="partials/100.html" />
+            <partial src="partials/102.html" />
+            <partial src="partials/104.html" />
+            <partial src="partials/106.html" />
 
-            <partial src="200.html" />
-            <partial src="204.html" />
-            <partial src="206.html" />
-            <partial src="208.html" />
-            <partial src="212.html" />
-            <partial src="214.html" />
-            <partial src="220.html" />
+            <partial src="partials/200.html" />
+            <partial src="partials/204.html" />
+            <partial src="partials/206.html" />
+            <partial src="partials/208.html" />
+            <partial src="partials/212.html" />
+            <partial src="partials/214.html" />
+            <partial src="partials/220.html" />
 
-            <partial src="300.html" />
-            <partial src="302.html" />
-            <partial src="306.html" />
-            <partial src="308.html" />
-            <partial src="309.html" />
-            <partial src="310.html" />
-            <partial src="312.html" />
-            <partial src="314.html" />
-            <partial src="316.html" />
-            <partial src="318.html" />
-            <partial src="320.html" />
+            <partial src="partials/300.html" />
+            <partial src="partials/302.html" />
+            <partial src="partials/306.html" />
+            <partial src="partials/308.html" />
+            <partial src="partials/309.html" />
+            <partial src="partials/310.html" />
+            <partial src="partials/312.html" />
+            <partial src="partials/314.html" />
+            <partial src="partials/316.html" />
+            <partial src="partials/318.html" />
+            <partial src="partials/320.html" />
+            <partial src="partials/322.html" />
+            <partial src="partials/324.html" />
+            <partial src="partials/326.html" />
+            <partial src="partials/328.html" />
+            <partial src="partials/330.html" />
+            <partial src="partials/332.html" />
+            <partial src="partials/334.html" />
+            <partial src="partials/336.html" />
+            <partial src="partials/338.html" />
+            <partial src="partials/340.html" />
+            <partial src="partials/342.html" />
+            <partial src="partials/344.html" />
+            <partial src="partials/346.html" />
+            <partial src="partials/348.html" />
+            <partial src="partials/352.html" />
+            <partial src="partials/358.html" />
+            <partial src="partials/360.html" />
+            <partial src="partials/362.html" />
+            <partial src="partials/364.html" />
+            <partial src="partials/368.html" />
+            <partial src="partials/370.html" />
+            <partial src="partials/373.html" />
+            <partial src="partials/374.html" />
+            <partial src="partials/378.html" />
+            <partial src="partials/380.html" />
+            <partial src="partials/382.html" />
+            <partial src="partials/386.html" />
+            <partial src="partials/388.html" />
+            <partial src="partials/389.html" />
+
+            <partials src="partials/400.html" />
+            <partials src="partials/402.html" />
+            <partials src="partials/404.html" />
+            <partials src="partials/406.html" />
+            <partials src="partials/410.html" />
+            <partials src="partials/412.html" />
+            <partials src="partials/414.html" />
+            <partials src="partials/416.html" />
+            <partials src="partials/418.html" />
+            <partials src="partials/420.html" />
+            <partials src="partials/422.html" />
+            <partials src="partials/424.html" />
+            <partials src="partials/428.html" />
+            <partials src="partials/430.html" />
+            <partials src="partials/432.html" />
+            <partials src="partials/435.html" />
+            <partials src="partials/437.html" />
+            <partials src="partials/439.html" />
+            <partials src="partials/440.html" />
+            <partials src="partials/441.html" />
+            <partials src="partials/444.html" />
+            <partials src="partials/446.html" />
+            <partials src="partials/448.html" />
+            <partials src="partials/450.html" />
+            <partials src="partials/454.html" />
+            <partials src="partials/458.html" />
+            <partials src="partials/460.html" />
+            <partials src="partials/464.html" />
+            <partials src="partials/465.html" />
+            <partials src="partials/467.html" />
+            <partials src="partials/468.html" />
+            <partials src="partials/469.html" />
+            <partials src="partials/470.html" />
+            <partials src="partials/471.html" />
+            <partials src="partials/472.html" />
+            <partials src="partials/473.html" />
+            <partials src="partials/474.html" />
+
+            <partials src="partials/500.html" />
+            <partials src="partials/502.html" />
+            <partials src="partials/503.html" />
+            <partials src="partials/510.html" />
+            <partials src="partials/512.html" />
+            <partials src="partials/514.html" />
+            <partials src="partials/516.html" />
+            <partials src="partials/520.html" />
+            <partials src="partials/524.html" />
         </div>
         <!-- END OF FRONT END CONTENT -->
     </div>
