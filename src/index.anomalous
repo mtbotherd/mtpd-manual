@@ -191,12 +191,7 @@
             <partials src="partials/1060.html" />
             <partials src="partials/1061.html" />
 
-            <hr/>
-
-            <div class="paging">
-                <a id="prev" href="" title="previous page" style="float: left;">&laquo; Previous page</a>
-                <a id="next" href="" title="next page" style="float: right;">Next page &raquo;</a>
-            </div>
+            <partials src="./partials/paging-nav.html" />
         </div>
         <!-- END OF FRONT END CONTENT -->
     </div>
