@@ -145,6 +145,15 @@
             <partials src="partials/704.html" />
             <partials src="partials/706.html" />
             <partials src="partials/710.html" />
+
+            <partials src="partials/800.html" />
+            <partials src="partials/802.html" />
+            <partials src="partials/804.html" />
+            <partials src="partials/806.html" />
+            <partials src="partials/808.html" />
+            <partials src="partials/810.html" />
+            <partials src="partials/812.html" />
+            <partials src="partials/814.html" />
         </div>
         <!-- END OF FRONT END CONTENT -->
     </div>
