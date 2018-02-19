@@ -30,27 +30,27 @@ $(document).ready(function() {
     });
 
     // Paging
-    $(".left-col .chapter").each(function(e) {
+    $(".paging .chapter").each(function(e) {
         if (e != 0)
             $(this).hide();
     });
 
     $("#next").click(function() {
-        if ($(".left-col .chapter:visible").next().length != 0)
-            $(".left-col .chapter:visible").next().show().prev().hide();
+        if ($(".paging .chapter:visible").next().length != 0)
+            $(".paging .chapter:visible").next().show().prev().hide();
         else {
-            $(".left-col .chapter:visible").hide();
-            $(".left-col .chapter:first").show();
+            $(".paging .chapter:visible").hide();
+            $(".paging .chapter:first").show();
         }
         return false;
     });
 
     $("#prev").click(function() {
-        if ($(".left-col .chapter:visible").prev().length != 0)
-            $(".left-col .chapter:visible").prev().show().next().hide();
+        if ($(".paging .chapter:visible").prev().length != 0)
+            $(".paging .chapter:visible").prev().show().next().hide();
         else {
-            $(".left-col .chapter:visible").hide();
-            $(".left-col .chapter:last").show();
+            $(".paging .chapter:visible").hide();
+            $(".paging .chapter:last").show();
         }
         return false;
     });

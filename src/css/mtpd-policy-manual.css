@@ -1,88 +1,87 @@
 /***************************************************
 	MTPD Manual - July 2017
 ***************************************************/
-.mtpd-manual img.hero {
-  margin-bottom: 20px; }
+.mtpd-manual .mtpd-manual-menu ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0; }
+  .mtpd-manual .mtpd-manual-menu ul li {
+    background-image: none;
+    display: block;
+    color: #000;
+    font-size: 13px;
+    list-style-image: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 1.5em; }
+    .mtpd-manual .mtpd-manual-menu ul li a {
+      color: #000; }
+    .mtpd-manual .mtpd-manual-menu ul li a.active,
+    .mtpd-manual .mtpd-manual-menu ul li a:active,
+    .mtpd-manual .mtpd-manual-menu ul li a:hover {
+      color: #0053a0;
+      text-decoration: underline; }
+    .mtpd-manual .mtpd-manual-menu ul li ul {
+      margin-top: 0; }
+  .mtpd-manual .mtpd-manual-menu ul li.dropdown ul li a {
+    color: #0053a0; }
+  .mtpd-manual .mtpd-manual-menu ul .plus-icon {
+    background-image: url("data:image/gif;base64,R0lGODlhCwALALMAAKfB4vn7/RJWssjY7Tlyv3if08bW7JOy3NLf8DJtvAxSsP///wAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAQ6cC1TiCDFyAXSQQFyJMCUDJs0JNSxKdtRIe+GWMGi7PsSXDQJTHIruISxzCm1WGk6n9CoJKFYMJpFBAA7");
+    background-repeat: no-repeat;
+    background-position: 0 4px; }
+  .mtpd-manual .mtpd-manual-menu ul .minus-icon {
+    background-image: url("https://www.metrotransit.org/Images/Icons/MinusSmall.gif");
+    background-repeat: no-repeat;
+    background-position: 0 4px; }
 
-.mtpd-manual .right-col {
-  float: right;
-  width: 325px;
-  padding-left: 30px; }
-  .mtpd-manual .right-col ul {
-    list-style-type: none;
-    padding-left: 0; }
-    .mtpd-manual .right-col ul li {
-      background-image: none;
-      display: block;
-      color: #000;
-      font-size: 13px;
-      list-style-image: none;
-      cursor: pointer;
-      background-color: #ffffff;
-      margin: 0;
-      padding-left: 1.5em; }
-      .mtpd-manual .right-col ul li a {
-        color: #000; }
-      .mtpd-manual .right-col ul li a.active,
-      .mtpd-manual .right-col ul li a:active,
-      .mtpd-manual .right-col ul li a:hover {
-        color: #0053a0;
-        text-decoration: underline; }
-      .mtpd-manual .right-col ul li ul {
-        margin-top: 0; }
-    .mtpd-manual .right-col ul li.dropdown ul li a {
-      color: #0053a0; }
-    .mtpd-manual .right-col ul .plus-icon {
-      background-image: url("data:image/gif;base64,R0lGODlhCwALALMAAKfB4vn7/RJWssjY7Tlyv3if08bW7JOy3NLf8DJtvAxSsP///wAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAQ6cC1TiCDFyAXSQQFyJMCUDJs0JNSxKdtRIe+GWMGi7PsSXDQJTHIruISxzCm1WGk6n9CoJKFYMJpFBAA7");
-      background-repeat: no-repeat;
-      background-position: 0 4px; }
-    .mtpd-manual .right-col ul .minus-icon {
-      background-image: url("https://www.metrotransit.org/Images/Icons/MinusSmall.gif");
-      background-repeat: no-repeat;
-      background-position: 0 4px; }
+.mtpd-manual .chapter {
+  display: none; }
 
-.mtpd-manual .left-col {
-  float: left;
-  width: 625px; }
-  .mtpd-manual .left-col .chapter {
-    display: none; }
-  .mtpd-manual .left-col h4 {
-    font-weight: 400; }
-  .mtpd-manual .left-col ul {
-    list-style-type: initial;
-    margin-bottom: 1.5em; }
-  .mtpd-manual .left-col ol.alpha {
-    list-style: lower-alpha;
+.mtpd-manual h4 {
+  font-weight: 400; }
+
+.mtpd-manual ul {
+  list-style-type: initial;
+  margin-bottom: 1.5em; }
+
+.mtpd-manual ol.alpha {
+  list-style: lower-alpha;
+  margin-bottom: 1.5em;
+  padding-left: 1em; }
+  .mtpd-manual ol.alpha li {
     padding-left: 1em; }
-    .mtpd-manual .left-col ol.alpha li {
-      padding-left: 1em; }
-  .mtpd-manual .left-col ol.decimal {
-    list-style: decimal; }
-  .mtpd-manual .left-col img {
-    max-width: 100%; }
-  .mtpd-manual .left-col .table {
-    border: 1px solid #ccc;
-    margin-bottom: 20px; }
-    .mtpd-manual .left-col .table thead tr {
-      background-color: #ececec;
-      border: 2px solid #ccc;
-      border-bottom: 1px solid #ccc; }
-      .mtpd-manual .left-col .table thead tr th {
-        border: 1px solid #ccc;
-        padding: 5px 10px; }
-    .mtpd-manual .left-col .table tbody tr {
-      border-right: 2px solid #ccc;
-      border-left: 2px solid #ccc; }
-      .mtpd-manual .left-col .table tbody tr td {
-        border: 1px solid #ccc;
-        padding: 5px 10px; }
-      .mtpd-manual .left-col .table tbody tr:last-child {
-        border-bottom: 2px solid #ccc; }
-  .mtpd-manual .left-col .table.special tbody tr td {
-    text-align: center; }
-    .mtpd-manual .left-col .table.special tbody tr td:first-child {
-      background-color: #ececec;
-      font-weight: 700;
-      text-align: left; }
+
+.mtpd-manual ol.decimal {
+  list-style: decimal; }
+
+.mtpd-manual img {
+  max-width: 100%; }
+
+.mtpd-manual .table {
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .mtpd-manual .table thead tr {
+    background-color: #ececec;
+    border: 2px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .mtpd-manual .table thead tr th {
+      border: 1px solid #ccc;
+      padding: 5px 10px; }
+  .mtpd-manual .table tbody tr {
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc; }
+    .mtpd-manual .table tbody tr td {
+      border: 1px solid #ccc;
+      padding: 5px 10px; }
+    .mtpd-manual .table tbody tr:last-child {
+      border-bottom: 2px solid #ccc; }
+
+.mtpd-manual .table.special tbody tr td {
+  text-align: center; }
+  .mtpd-manual .table.special tbody tr td:first-child {
+    background-color: #ececec;
+    font-weight: 700;
+    text-align: left; }
 
 /*# sourceMappingURL=../maps/mtpd-policy-manual.css.map */
