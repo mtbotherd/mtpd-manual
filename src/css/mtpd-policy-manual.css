@@ -46,6 +46,8 @@
   width: 625px; }
   .mtpd-manual .left-col .chapter {
     display: none; }
+  .mtpd-manual .left-col h4 {
+    font-weight: 400; }
   .mtpd-manual .left-col ul {
     list-style-type: initial;
     margin-bottom: 1.5em; }
