@@ -19,7 +19,7 @@
     <div class="container mtpd-manual">
         <!-- START OF FRONT END CONTENT -->
         <h1>Metro Transit Police Department Policy Manual</h1>
-        <p><img class="hero" src="Data/sites/1/media/mtpd-on-lrt.jpg" alt="Metro Transit Police interact with riders on the LRT" /></p>
+        <p><img class="hero" src="Data/sites/1/media/police/mtpd-on-lrt.jpg" alt="Metro Transit Police interact with riders on the LRT" /></p>
         <div class="row">
             <div class="col-md-8 paging">
                 <partial src="partials/chiefs-preface.html" />

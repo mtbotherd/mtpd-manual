@@ -3,20 +3,18 @@ $(document).ready(function() {
     // Expand/collapse nav.
     $('.mtpd-manual-menu li.dropdown').addClass('plus-icon');
     $('.mtpd-manual-menu li.dropdown').children().hide();
-    $('.mtpd-manual-menu li.dropdown').each(function() {
-        $(this).click(function(event) {
-            if (this == event.target) {
-                if ($(this).is('.plus-icon')) {
-                    $(this).children().slideDown();
-                    $(this).removeClass('plus-icon');
-                    $(this).addClass('minus-icon');
-                } else {
-                    $(this).children().slideUp();
-                    $(this).removeClass('minus-icon');
-                    $(this).addClass('plus-icon');
-                }
+    $('.mtpd-manual-menu li.dropdown').click(function() {
+        if (this == event.target) {
+            if ($(this).is('.plus-icon')) {
+                $(this).children().slideDown();
+                $(this).removeClass('plus-icon');
+                $(this).addClass('minus-icon');
+            } else {
+                $(this).children().slideUp();
+                $(this).removeClass('minus-icon');
+                $(this).addClass('plus-icon');
             }
-        });
+        }
     });
 
     //Show content based on nav link clicked.
@@ -55,4 +53,4 @@ $(document).ready(function() {
         return false;
     });
     /* End Police Manual */
-})
+});
